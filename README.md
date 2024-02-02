@@ -38,7 +38,7 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-/Assets/05-third-party-apis-homework-demo.gif
+![This shows the work schedule](.\Assets\05-third-party-apis-homework-demo.gif)
 
 ## Grading Requirements
 
