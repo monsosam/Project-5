@@ -3,6 +3,17 @@ body {
   font-size: 16px;
 }
 
+header { 
+  border: 10px solid black;
+  text-align: center;
+ }
+
+#currentDay {
+  border: 2px solid #721c24; 
+  padding: 10px; /* Optional: Adds some space inside the border */
+  margin-top: 10px; /* Optional: Adds some space outside the border, adjust as needed */
+}
+
 textarea {
   background: transparent;
   border: none;

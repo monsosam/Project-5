@@ -20,8 +20,9 @@ $(document).ready(function () {
   });
 
   // Display the current date
-  $('#currentDay').text(dayjs().format('dddd, MMMM D, YYYY'));
+  $('#currentDay').html(dayjs().format('MMMM D, YYYY') + '<br>' + dayjs().format('dddd'));
 
+  
   // Save button event listener
   $(".saveBtn").on("click", function () {
     var hourId = $(this).closest('.time-block').attr("id");
